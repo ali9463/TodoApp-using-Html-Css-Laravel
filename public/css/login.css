@@ -1,0 +1,22 @@
+
+.icon {
+    background-color: #fff;
+    border: 2px solid #d5d5d5;
+    box-shadow: 0 0 10px rgba(186, 182, 182, 0.748);
+    color: #030303;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+  }
+  
+  .icon:hover {
+    background-color: #efecec;
+  }
+  
+  .bg-primary {
+    background-color: #492ac3 !important;
+  }
+  

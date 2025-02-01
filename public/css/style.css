@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+span{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(30, 30, 115);
+}
+.navbar-nav .nav-link {
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 40px;
+    font-size: 1.1rem;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background-color: rgba(21, 28, 216);
+    border-radius: 40px;
+  }
+  section.hero {
+    background-image: url(../Images/main.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    padding: 0 20px;
+}
+
+.hero .container {
+    text-align: center;
+    max-width: 100%;
+    padding: 0 15px;
+}
+.blur{
+ backdrop-filter: blur(5px);
+ border: 1px;
+ border-radius: 50px;
+ width: 900px;
+ height: 300px;
+}
+h1 {
+    z-index: 1000;
+    font-size: 3.8rem;
+    font-weight: bold;
+    color: rgb(209, 239, 15);
+    margin-bottom: 15px;
+}
+p {
+    z-index: -1;
+    font-size: 1.4rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.btn{
+    padding: 0px;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(53, 53, 54);
+    text-decoration: none;
+}
+
+.btn:hover{
+    padding: 0px;
+    color: #ffffff;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: blue;
+}
+.btn0{
+    margin: 14px 33px;
+    padding: 7px 18px;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(53, 53, 54);
+    text-decoration: none;
+}
+.btn0:hover{
+    color: #ffffff;
+    margin: 14px 33px;
+    padding: 7px 18px;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: blue;
+}
+.btn1 {
+    margin: 14px 33px;
+    padding: 7px 18px;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(53, 53, 54);
+    text-decoration: none;
+}
+.btn1:hover {
+    color: #ffffff;
+    margin: 14px 33px;
+    padding: 7px 18px;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: blue;
+}
+.about-section {
+    background-color: #f9f9f9;
+    padding: 80px 0;  /* Adds padding for top and bottom */
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(30, 30, 115);
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: rgb(47, 46, 46);
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+    text-decoration: none;
+}
+.btn2{
+    border: 1px;
+    padding: 7px 18px;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(53, 53, 54);
+    text-decoration: none;
+}
+.btn2:hover{
+    background-color: blue;
+}
+.btn3{
+    padding: 7px 18px;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(53, 53, 54);
+    text-decoration: none;
+    border: 1px;
+}
+.btn3:hover{
+    background-color: rgb(242, 255, 2);
+}
+.btn4{
+    border: 1px;
+    padding: 7px 18px;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(53, 53, 54);
+    text-decoration: none;
+}
+.btn4:hover{
+    background-color: rgb(30, 255, 14);
+}
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Adjust the height to make the image smaller */
+    object-fit: cover;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+footer{
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: rgb(209, 239, 15);
+    }
+    p {
+        font-size: 1.1rem;
+    }
+    .btn{
+        padding: 0px;
+        font-size: 1.3rem;
+        border-radius: 50px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: rgb(53, 53, 54);
+        text-decoration: none;
+    }
+
+    .btn:hover{
+        padding: 0px;
+        color: #ffffff;
+        font-size: 1.4rem;
+        border-radius: 50px;
+        font-weight: bold;
+        background-color: blue;
+    }
+    .btn0{
+        margin: 4px 2px;
+        padding: 8px 12px;
+        font-size: 1.2rem;
+        border-radius: 40px;
+    }
+    .btn0:hover{
+        margin: 4px 2px;
+        padding: 8px 12px;
+        font-size: 1.2rem;
+        border-radius: 40px;
+    }
+    .btn1 {
+        margin: 2px 5px;
+        padding: 7px 5px;
+        font-size: 1.2rem;
+        border-radius: 40px;
+    }
+    .btn1:hover{
+        margin: 2px 5px;
+        padding: 7px 5px;
+        font-size: 1.2rem;
+        border-radius: 40px;
+    }
+    .blur{
+        backdrop-filter: blur(3px);
+       }
+    .about-section {
+        padding: 60px 20px;
+    }
+    .col-lg-6{
+        margin-top: 15px;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+    .section-description {
+        font-size: 1rem;
+    }
+}
+
